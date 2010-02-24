@@ -10,7 +10,7 @@
 #--------------------------------------------------------------
 #  Mod:
 #        22-Feb-2010, K. Luchini         (LUCHINI):
-#           release sSubRecord-R3-0-0
+#           release sSubRecord-R2-1-0
 #        28-Aug-2009, K. Luchini         (LUCHINI):
 #           release sSubRecord-R2-0-0
 #        21-Feb-2008, K. Luchini         (LUCHINI):
@@ -18,13 +18,16 @@
 #
 #==============================================================
 #
-sSubRecord-R3-0-0: Build against EPICS R3.14.8.2
+sSubRecord-R2-1-0: Build against EPICS R3.14.8.2
                    Build agains RTEMS 4.9.3 (base-R3-14-8-2-lcls5)
+
+sSubRecord-R2-0-0: Build against EPICS R3.14.8.2
+                   Build agains RTEMS 4.9.1 (base-R3-14-8-2-lcls3)
 
 sSubRecord-R1-0-2-1: Replace CONFIG_APP with CONFIG_SITE
                      Add RELEASE_SITE
 
-sSubRecord-R1-0-2: Build against EPICS R3.14.9 
+sSubRecord-R1-0-2: Build against EPICS R3.14.9.1 
                    Build agains RTEMS 4.7.1 (base-R3-14-9-lcls1)
 
 sSubRecord-R1-0-1: Build against EPICS R3.14.8.2
