@@ -9,6 +9,8 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
+#        19-Mar-2010, S. Hoobler         (SONYA):
+#           release sSubRecord-R2-2-0
 #        22-Feb-2010, K. Luchini         (LUCHINI):
 #           release sSubRecord-R2-1-0
 #        28-Aug-2009, K. Luchini         (LUCHINI):
@@ -18,6 +20,9 @@
 #
 #==============================================================
 #
+sSubRecord-R2-2-0: Build against EPICS R3.14.8.2
+                   Build agains RTEMS 4.9.4 (base-R3-14-8-2-lcls6)
+
 sSubRecord-R2-1-0: Build against EPICS R3.14.8.2
                    Build agains RTEMS 4.9.3 (base-R3-14-8-2-lcls5)
 
