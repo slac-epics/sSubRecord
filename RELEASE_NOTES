@@ -20,6 +20,8 @@
 #
 #==============================================================
 #
+sSubRecord-R2-2-1: Build with eco style; really should be using aSub or genSub
+
 sSubRecord-R2-2-0: Build against EPICS R3.14.8.2
                    Build agains RTEMS 4.9.4 (base-R3-14-8-2-lcls6)
 
