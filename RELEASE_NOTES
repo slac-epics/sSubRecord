@@ -9,6 +9,7 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
+#        09-Aug-2017, K. Luchini         (LUCHINI):
 #        19-Mar-2010, S. Hoobler         (SONYA):
 #           release sSubRecord-R2-2-0
 #        22-Feb-2010, K. Luchini         (LUCHINI):
@@ -20,6 +21,8 @@
 #
 #==============================================================
 #
+sSubRecord-R3-0-0: Update to EPICS R3.15.5-1.0
+
 sSubRecord-R2-2-1: Build with eco style; really should be using aSub or genSub
 
 sSubRecord-R2-2-0: Build against EPICS R3.14.8.2
