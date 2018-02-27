@@ -4,6 +4,8 @@ bin
 db
 dbd
 display
+include
+lib
 restore
 RELEASE_SITE
 
