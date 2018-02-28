@@ -22,7 +22,7 @@
 #
 #==============================================================
 #
-SubRecord-R3-0-2:  Add back in RELEASE_SITE, eco not used.
+sSubRecord-R3-0-2:  Add back in RELEASE_SITE, eco not used.
                    Copy sSubRoutine.c and sSubRoutine.dbd from
                    EPICS R3.15.5-1.0 and added M-L, which is what
                    was done in the original version. This was done
