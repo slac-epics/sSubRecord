@@ -29,12 +29,12 @@ recordtype(sSub) {
 		size(40)
 	}
         %struct sSubRecord;
-        %typedef long (*SUBFUNCPTR)(struct sSubRecord *);
+        %typedef long (*SSUBFUNCPTR)(struct sSubRecord *);
 	field(SADR,DBF_NOACCESS) {
 		prompt("Subroutine Address")
 		special(SPC_NOMOD)
 		interest(4)
-                extra("SUBFUNCPTR sadr")
+                extra("SSUBFUNCPTR sadr")
 	}
 	field(INPA,DBF_INLINK) {
 		prompt("Input A")

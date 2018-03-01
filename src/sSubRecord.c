@@ -99,7 +99,7 @@ static void monitor(sSubRecord *);
 
 static long init_record(sSubRecord *prec, int pass)
 {
-    SUBFUNCPTR psubroutine;
+    SSUBFUNCPTR psubroutine;
     struct link *plink;
     int i;
     double *pvalue;
@@ -116,7 +116,7 @@ static long init_record(sSubRecord *prec, int pass)
 
     if (prec->inam[0]) {
         /* convert the initialization subroutine name  */
-        psubroutine = (SUBFUNCPTR)registryFunctionFind(prec->inam);
+        psubroutine = (SSUBFUNCPTR)registryFunctionFind(prec->inam);
         if (psubroutine == 0) {
             recGblRecordError(S_db_BadSub, (void *)prec, "Init subroutine (INAM)");
             return S_db_BadSub;
@@ -130,7 +130,7 @@ static long init_record(sSubRecord *prec, int pass)
         prec->pact = TRUE;
         return 0;
     }
-    prec->sadr = (SUBFUNCPTR)registryFunctionFind(prec->snam);
+    prec->sadr = (SSUBFUNCPTR)registryFunctionFind(prec->snam);
     if (prec->sadr == NULL) {
         recGblRecordError(S_db_BadSub, (void *)prec, "Proc subroutine (SNAM)");
         return S_db_BadSub;
@@ -191,7 +191,7 @@ static long special(DBADDR *paddr, int after)
         return 0;
     }
 
-    prec->sadr = (SUBFUNCPTR)registryFunctionFind(prec->snam);
+    prec->sadr = (SSUBFUNCPTR)registryFunctionFind(prec->snam);
     if (prec->sadr) return 0;
 
     recGblRecordError(S_db_BadSub, (void *)prec,
@@ -425,7 +425,7 @@ static long fetch_values(sSubRecord *prec)
 
 static long do_sub(sSubRecord *prec)
 {
-    SUBFUNCPTR psubroutine = prec->sadr;
+    SSUBFUNCPTR psubroutine = prec->sadr;
     long status;
 
     if (psubroutine == NULL) {
