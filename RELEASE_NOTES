@@ -24,7 +24,7 @@
 #
 #==============================================================
 #
-SubRecord-R3-0-3: Remove RELEASE_SITE again, setup symbolic links in
+sSubRecord-R3-0-3: Remove RELEASE_SITE again, setup symbolic links in
 03-Dec-2018      $EPICS_MODULES_TOP/RELEASE_SITE
                  $EPICS_MODULES_TOP/RELEASE_SITE.check
                  $EPICS_MODULES_TOP/EPICS_BASE.check 
