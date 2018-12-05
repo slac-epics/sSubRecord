@@ -24,6 +24,9 @@
 #
 #==============================================================
 #
+R3.0.4:	2018-12-05 Bruce Hill
+	Updated build support for git workflow
+
 sSubRecord-R3-0-3: Remove RELEASE_SITE again, setup symbolic links in
 03-Dec-2018      $EPICS_MODULES_TOP/RELEASE_SITE
                  $EPICS_MODULES_TOP/RELEASE_SITE.check
